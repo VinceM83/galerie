@@ -37,7 +37,7 @@ function removeOverlay(){
     });
 
 }
-
+// test
 // Selection de toutes les images de la galerie et application d'un écouteur d'évènement au clique dessus
 $('.images img').click(function(){
     // Affichage de l'image correspondant (.data('img')) à la vignette cliquée ($(this)) avec une animation d'ouverture de 300ms
