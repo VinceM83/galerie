@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    color: #222222;
+}
+
+.images {
+    background: #818181;
+    width: 80%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 15px;
+    -moz-box-shadow: 0px 0px 10px 2px #656565;
+    -webkit-box-shadow: 0px 0px 10px 2px #656565;
+    -o-box-shadow: 0px 0px 10px 2px #656565;
+    box-shadow: 0px 0px 10px 2px #656565;
+}
+
+.images img {
+    width: 20%;
+    cursor: zoom-in;
+    margin: 2.5%;
+    border: 2px solid #B5B5B5;
+    box-sizing: border-box;
+    -moz-box-shadow: 10px 10px 5px #656565;
+    -webkit-box-shadow: 10px 10px 5px #656565;
+    -o-box-shadow: 10px 10px 5px #656565;
+    box-shadow: 10px 10px 5px #656565;
+}
+
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: zoom-out;
+}
+
+#overlay img {
+    width: 70%;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    cursor: auto;
+}
+
+#close-button {
+    color: #CECECE;
+    font-size: 3em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    background-color: #818181;
+    text-align: center;
+    height: 30px;
+    bottom: 0;
+    width: 100vw;
+    padding: 10px 0;
+}
